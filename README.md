@@ -1,4 +1,5 @@
-
+> [!WARNING]
+> This version of this repository uses the `--allow-unsuported-compiler` flag for nvcc to "fix" the version screw up in VS17.10. More information can be found [here](https://forums.developer.nvidia.com/t/problems-with-latest-vs2022-update/294150/6).
 
 # MSplat
 
