@@ -36,7 +36,7 @@ def make_extensions():
             name="msplat._C",
             sources=search_sources(),
             include_dirs= [os.path.join(f"{ROOT_DIR}", "msplat/include")] + search_third_party(),
-            extra_compile_args={"cxx": ["-O3"], "nvcc": ["-O3", "--use_fast_math"]},
+            extra_compile_args={"cxx": ["-O3"], "nvcc": ["-O3", "--use_fast_math", "--allow-unsupported-compiler"]},
         )
     ]
     
