@@ -13,9 +13,7 @@ MSplat is a modular differential gaussian rasterization library. We have refacto
 
 ## How to install
 ```shell
-git clone https://github.com/pointrix-project/msplat.git --recursive
-cd msplat
-pip install .
+pip install git+https://github.com/dwoiwode/msplat.git
 ```
 
 ## Camera Model
